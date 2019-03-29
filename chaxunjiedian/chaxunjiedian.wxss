@@ -1,0 +1,49 @@
+page{
+  width:100%;
+  height:100%;
+}
+.container{
+  flex-direction: row;
+  height:100%;
+}
+.left{
+
+}
+.left scroll-view{
+  height:100%;
+	
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+.left view{
+	width: 40px;
+  padding:10px;
+  text-align: center;
+  background-color:#0f0;
+  margin-bottom:10px;
+  color:#fff;
+	float: left;
+}
+.right{
+  flex:1;
+  height:80%;
+}
+.right scroll-view{
+  height:100%;
+}
+.right view{
+  height:300px;
+  background-color:#f00;
+  color:#fff;
+  margin-bottom:10px;
+}
+::-webkit-scrollbar{
+  width:0;
+  height:0;
+  color:transparent;
+}
+
+.left .choose{
+  color: red
+}
